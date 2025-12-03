@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family : 'Georgia';
+}
+
+section {
+  /* Créez une flexbox globale de hauteur 100 vh */
+  
+}
+
+.wrapper {
+  /* Créez une flexbox avec une largeur et une hauteur fixe (420 x 500) */
+  /* utilisez flex-wrap pour gérer votre mise en page des cases */
+  
+}
+
+.touch {
+  /* Créez une flexbox pour centrer les nombres dans les cases */
+  /* Utilisez la propriété flex pour gérer vos ratio de largeur */
+
+}
+
+.last {
+    /* Utilisez la propriété flex pour gérer votre ratio de largeur */
+}

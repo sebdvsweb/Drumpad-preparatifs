@@ -1,0 +1,60 @@
+  /* Reset */
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  html,
+  body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Montserrat', 'sans-serif';
+      color: red;
+      overflow: hidden;
+  }
+
+  .letters-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 1em;
+  }
+
+  .display {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
+
+  .letters {
+      padding: 15px;
+      border: 1px solid #eee;
+  }
+
+  p {
+      font-size: 60px;
+      text-align: center;
+      margin: 0;
+  }
+
+  p.bouton {
+      text-transform: uppercase;
+      display: inline-block;
+      color: #ffffff;
+      font: bold 20px arial;
+      text-decoration: none;
+      text-align: center;
+      margin: 20px auto;
+      padding: 15px 20px;
+      background: #1B37DE;
+  }
+
+  /* Créer la classe de transition */
+
+  .blue {
+      color: #1B37DE;
+      transform: scale(1.5);
+      transition: 400ms;
+      /* color #1B37DE, transform, transition */
+  }
